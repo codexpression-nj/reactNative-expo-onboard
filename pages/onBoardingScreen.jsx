@@ -1,8 +1,6 @@
 //import liraries
 import React, { useRef, useState } from 'react';
-import { View, Text, StyleSheet, Animated, FlatList, useWindowDimensions } from 'react-native';
-import Onboarding from 'react-native-onboarding-swiper';
-import { COLORS } from '../contants/theme';
+import { View, StyleSheet, Animated, FlatList } from 'react-native';
 import slides from '../data/slides';
 import OnBoardingItem from './onBoardingItem';
 import Paginator from './paginator';
@@ -22,12 +20,11 @@ const OnBoardingSceen = () => {
 
     return (
         <View style={styles.container}>
-            <View style={{ flex:1 }}>
+            <View style={{ flex: 1 }}>
                 <FlatList
                     horizontal
                     data={slides}
                     renderItem={({ item }) => <OnBoardingItem item={item} />}
-                    
                     pagingEnabled
                     bounces={false}
                     keyExtractor={(item) => item.id}
@@ -40,7 +37,10 @@ const OnBoardingSceen = () => {
                     ref={slideRef}
                 />
             </View>
-            <Paginator data={slides} scrollX={scrollX}/>
+            <View style={{ position: 'absolute', bottom: 0 }}>
+                <Paginator data={slides} scrollX={scrollX} />
+            </View>
+
         </View>
 
     );

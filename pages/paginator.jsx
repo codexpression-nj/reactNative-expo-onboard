@@ -6,9 +6,10 @@ import { COLORS } from '../contants/theme';
 // create a component
 const Paginator = ({ data, scrollX }) => {
     const width = useWindowDimensions()
+
     return (
         <View style={[styles.view,{
-            backgroundColor:data.backgroundColor,   width: width.width,
+             width: width.width,
         }]}>
             {data.map((_, i) => {
                 const inputRange = [(i - 1) * width.width, i * width.width, (i + 1) * width.width];
@@ -39,7 +40,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#2c3e50',
+        backgroundColor: 'red',
     },
     dots: {
         height: 10,
@@ -51,7 +52,6 @@ const styles = StyleSheet.create({
     },view:{
         flexDirection: 'row', 
         height: 64, 
-      
         justifyContent: 'center',
         alignItems: 'center',
     }

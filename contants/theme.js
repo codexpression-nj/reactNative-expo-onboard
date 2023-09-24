@@ -4,8 +4,9 @@ const COLORS = {
     tertiary: "#FF7754",
 
     slideone:'#E5C6B6',
-    slideThree:'',
-    slideTwo:'',
+    slideThree:'#D9DFE9',
+    slideTwo:'#B2D5CE',
+    slideFour:'#BEBEBD',
   
     gray: "#83829A",
     gray2: "#C1C0C8",
