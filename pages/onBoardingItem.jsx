@@ -1,6 +1,6 @@
 //import liraries
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, Image, useWindowDimensions } from 'react-native';
+import { View, Text, StyleSheet, Image, useWindowDimensions, Button, TouchableOpacity } from 'react-native';
 import { COLORS } from '../contants/theme';
 
 // create a component
@@ -15,6 +15,10 @@ const OnBoardingItem = ({ item }) => {
                 <Text style={styles.description}>{item.description}</Text>
 
             </View>
+          <TouchableOpacity>
+            <Text>Next</Text>
+          </TouchableOpacity>
+
         </View>
     );
 };
