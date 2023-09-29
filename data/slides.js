@@ -6,7 +6,7 @@ export default [
         title: '01.',
         subTitle:'Wooden Chair',
         description: 'One Description goes here',
-        image: require('../assets/chair4.png'),
+        image: require('../assets/vase.png'),
         backgroundColor:COLORS.slideone
     },    {
         id:2,

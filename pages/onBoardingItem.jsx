@@ -13,7 +13,6 @@ const OnBoardingItem = ({ item }) => {
                 <Text style={styles.title}>{item.title}</Text>
                 <Text style={styles.subTitle}>{item.subTitle}</Text>
                 <Text style={styles.description}>{item.description}</Text>
-
             </View>
           <TouchableOpacity>
             <Text>Next</Text>
