@@ -4,15 +4,15 @@ export default [
     {
         id: 1,
         title: '01.',
-        subTitle:'Wooden Chair',
-        description: 'Elegant glass vase for floral arrangements',
+        subTitle:'Stylish Vase',
+        description: 'Elegant vase for floral arrangements',
         image: require('../assets/vase.png'),
         backgroundColor:COLORS.slideone
     },    {
         id:2,
         title: '02.',
-        subTitle:'Wooden Chair',
-        description: 'Two Description goes here',
+        subTitle:'Morden Chair',
+        description: 'Comfortable armchair with modern design',
         image: require('../assets/chair2.png'),
         backgroundColor:COLORS.slideTwo
     },    {
@@ -25,7 +25,7 @@ export default [
     },{
         id: 4,
         title: '04.',
-        subTitle:'Wooden Chair',
+        subTitle:'Stylish Chair',
         description: 'Comfortable armchair with modern design',
         image: require('../assets/chair.png'),
         backgroundColor:COLORS.slideFour
