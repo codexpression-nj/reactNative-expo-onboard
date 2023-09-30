@@ -5,7 +5,7 @@ export default [
         id: 1,
         title: '01.',
         subTitle:'Wooden Chair',
-        description: 'One Description goes here',
+        description: 'Elegant glass vase for floral arrangements',
         image: require('../assets/vase.png'),
         backgroundColor:COLORS.slideone
     },    {
@@ -13,20 +13,20 @@ export default [
         title: '02.',
         subTitle:'Wooden Chair',
         description: 'Two Description goes here',
-        image: require('../assets/greenSpa.png'),
+        image: require('../assets/chair2.png'),
         backgroundColor:COLORS.slideTwo
     },    {
         id: 3,
         title: '03.',
-        subTitle:'Wooden Chair',
-        description: 'Three Description goes here',
+        subTitle:'Lamp',
+        description: 'Adjustable desk lamp with LED lighting',
         image: require('../assets/lamp.png'),
         backgroundColor:COLORS.slideThree
     },{
         id: 4,
         title: '04.',
         subTitle:'Wooden Chair',
-        description: 'Three Description goes here',
+        description: 'Comfortable armchair with modern design',
         image: require('../assets/chair.png'),
         backgroundColor:COLORS.slideFour
     }
