@@ -4,6 +4,7 @@ import { View, StyleSheet, Animated, FlatList } from 'react-native';
 import slides from '../data/slides';
 import OnBoardingItem from './onBoardingItem';
 import Paginator from './paginator';
+import NextButton from './nextButton';
 
 // create a component
 const OnBoardingSceen = () => {
@@ -37,10 +38,13 @@ const OnBoardingSceen = () => {
                     ref={slideRef}
                 />
             </View>
-            <View style={{ position: 'absolute', bottom: 0 }}>
+           <View style={{ position: 'absolute', bottom: 10 }}>
+           <NextButton percentage={(currentStateIndex + 1) * (100 /slides.length)} />
+           
+           </View>
+            {/* <View style={{ position: 'absolute', bottom: 40 }}>
                 <Paginator data={slides} scrollX={scrollX} />
-            </View>
-
+            </View> */}
         </View>
 
     );
