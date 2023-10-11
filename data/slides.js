@@ -6,7 +6,7 @@ export default [
         title: '01.',
         subTitle:'Stylish Chair',
         description: 'Comfortable armchair with modern design',
-        image: require('../assets/chair.png'),
+        image: require('../assets/toplamp.png'),
         backgroundColor:COLORS.slideFour
     },
     {
@@ -14,7 +14,7 @@ export default [
         title: '02.',
         subTitle:'Stylish Vase',
         description: 'Elegant vase for floral arrangements',
-        image: require('../assets/vase.png'),
+        image: require('../assets/woodChair.png'),
         backgroundColor:COLORS.slideone
     },    {
         id: 3,
@@ -28,7 +28,7 @@ export default [
         title: '04.',
         subTitle:'Morden Chair',
         description: 'Comfortable armchair with modern design',
-        image: require('../assets/chair2.png'),
+        image: require('../assets/tallChair.png'),
         backgroundColor:COLORS.slideTwo
     }, 
 ]
