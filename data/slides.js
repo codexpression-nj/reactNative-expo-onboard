@@ -4,16 +4,16 @@ export default [
     {
         id: 1,
         title: '01.',
-        subTitle:'Stylish Chair',
-        description: 'Comfortable armchair with modern design',
+        subTitle:'Top Lamp',
+        description: 'Stylish top gold lamp',
         image: require('../assets/toplamp.png'),
         backgroundColor:COLORS.slideFour
     },
     {
         id: 2,
         title: '02.',
-        subTitle:'Stylish Vase',
-        description: 'Elegant vase for floral arrangements',
+        subTitle:'Arm Chair',
+        description: 'Comfortable armchair with modern design',
         image: require('../assets/woodChair.png'),
         backgroundColor:COLORS.slideone
     },    {

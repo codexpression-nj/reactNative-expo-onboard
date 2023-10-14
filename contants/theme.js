@@ -1,7 +1,7 @@
 const COLORS = {
     primary: "#D3CFCC",
     secondary: "#555555",
-    tertiary: "#FF7754",
+    tertiary: "#3F585D",
 
     slideone:'#E5C6B6',
     slideThree:'#D9DFE9',

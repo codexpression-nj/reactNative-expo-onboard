@@ -7,7 +7,7 @@ import { AntDesign } from '@expo/vector-icons';
 
 // create a component
 const NextButton = ({ percentage }) => {
-    console.log(percentage);
+  
     const size = 75
     const center = size / 2
     const strokeWidth = 2
